@@ -1,0 +1,34 @@
+{
+  "lab": "lab1-threads",
+  "track": "pintos",
+  "ai": "claude-code",
+  "timestamp": "2025-02-28T12:00:00Z",
+  "elapsed_time_seconds": 120.5,
+  "results": {
+    "total_tests": 27,
+    "passed": 25,
+    "failed": 2,
+    "pass_rate": 0.926
+  },
+  "metrics": {
+    "lines_modified": 45,
+    "compilation_warnings": 0,
+    "time_spent_minutes": 120
+  },
+  "details": [
+    {
+      "test": "alarm-single",
+      "status": "PASS"
+    },
+    {
+      "test": "alarm-multiple",
+      "status": "PASS"
+    },
+    {
+      "test": "priority-donate-nest",
+      "status": "FAIL",
+      "error": "Nested donation not working correctly"
+    }
+  ],
+  "notes": "Notes about the benchmark run"
+}

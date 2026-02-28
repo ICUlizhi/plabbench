@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+pip-log.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Lab specific (large binaries, build outputs)
+courses/*/labs/*/pintos/build/
+courses/*/labs/*/tacos/target/
+*.o
+*.a
+*.elf
+*.bin
+*.img
+*.dsk
+
+# Test outputs
+courses/*/benchmark/results/*.log
+tmp/
+temp/
+
+# Secrets
+.env
+*.pem
+*.key
